@@ -55,7 +55,7 @@ def set_view(view_id, window, ignore_existing, single_pane):
         view.set_scratch(True)
         reset_sels = True
     else:
-        reset_sels = path != view.settings().get('outline_path', '')
+        reset_sels = False #path != view.settings().get('outline_path', '')
 
     return (view, reset_sels)
 
@@ -127,6 +127,8 @@ def refresh_sym_view(sym_view, symlist, path):
         rng, sym = symbol
         l.append(sym)
         k.append((rng.a, rng.b))
+
+    
     if sym_view != None:
         sym_view.settings().erase('symlist')
         sym_view.settings().erase('symkeys')
