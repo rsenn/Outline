@@ -145,7 +145,7 @@ def get_sidebar_views_groups(view):
         if 'outline.hidden-tmLanguage' in v.settings().get('syntax'):
             sym_view = v
             sym_group, i = window.get_view_index(sym_view)
-        if u'𝌆' in v.name() and hasattr(v, 'id'):
+        if not v is None and u'𝌆' in v.name():
             if v.id() != sym_view.id():
                 fb_view = v
             if fb_view != None:
