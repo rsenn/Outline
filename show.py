@@ -117,7 +117,7 @@ def show(window, view_id=None, ignore_existing=False, single_pane=False, other_g
             window.set_view_index(v, 1, 0)
 
     window.focus_view(prev_focus)
-    
+
     refresh_sym_view(view, symlist, file_path)
 
 def refresh_sym_view(sym_view, symlist, path):
@@ -128,7 +128,7 @@ def refresh_sym_view(sym_view, symlist, path):
         l.append(sym)
         k.append((rng.a, rng.b))
 
-    
+
     if sym_view != None:
         sym_view.settings().erase('symlist')
         sym_view.settings().erase('symkeys')
