@@ -53,7 +53,7 @@ class OutlineRefreshCommand(TextCommand):
                         symlist = []
 
                 symlist = list(re.sub(r"async\s+", "", t) for t in symlist)
-                symlist = list(re.sub(r"function\s*", "", t) for t in symlist)
+                symlist = list(re.sub(r"function\s+", "", t) for t in symlist)
                 symlist = list(re.sub(r"\*\s*", "*", t) for t in symlist)
                 symlist = list(re.sub(r"^\s*([A-Z])", '\\1', re.sub(r"^(\.|[a-z_])", '  \\1', re.sub(r"^\s+", "\t", t))) for t in symlist)
                 symlist = list(re.sub(r"[\u2002-\u2009]", " ", t) for t in symlist)
