@@ -11,33 +11,31 @@
 			<dict>
 				<key>background</key>
 				<string>#d9dee5</string>
-				<key>foreground</key>
-				<string>#222222</string>
 				<key>caret</key>
 				<string>#367cc055</string>
-				<key>lineHighlight</key>
-				<string>#367cc055</string>
+				<key>foreground</key>
+				<string>#222222</string>
 				<key>gutter</key>
 				<string>#d9dee5</string>
+				<key>inactiveSelection</key>
+				<string>#22222219</string>
 				<key>invisibles</key>
 				<string>#88222233</string>
+				<key>lineHighlight</key>
+				<string>#367cc055</string>
 				<key>selection</key>
 				<string>#22222233</string>
 				<key>selectionBorder</key>
 				<string>#22222233</string>
-				<key>inactiveSelection</key>
-				<string>#22222219</string>
 				<key>shadow</key>
 				<string>#d9dee5</string>
 				<key>shadowWidth</key>
 				<string>16</string>
-
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
-			<string>Project Symbols > Star</string>
+			<string>Project Symbols &gt; Star</string>
 			<key>scope</key>
 			<string>punctuation.definition.projects.star.symbol.outline</string>
 			<key>settings</key>
@@ -48,7 +46,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Project Symbols > Chevron</string>
+			<string>Project Symbols &gt; Chevron</string>
 			<key>scope</key>
 			<string>punctuation.definition.projects.chevron.symbol.outline</string>
 			<key>settings</key>
@@ -57,7 +55,6 @@
 				<string>#7c869266</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Project Path</string>
@@ -69,7 +66,6 @@
 				<string>#707e8b</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>File/Dir Symbols</string>
@@ -81,7 +77,6 @@
 				<string>#7c8692</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Dir Slash</string>
@@ -93,7 +88,6 @@
 				<string>#919aa388</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>File Extension</string>
@@ -105,7 +99,6 @@
 				<string>#919aa3</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Dir Name</string>
@@ -117,7 +110,6 @@
 				<string>bold</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Header</string>
@@ -129,7 +121,6 @@
 				<string>#707e8b</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Header punctuations</string>
@@ -141,7 +132,6 @@
 				<string>#6f798733</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Header Rename Mode Title</string>
@@ -153,7 +143,6 @@
 				<string>#E99023</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Marked</string>
@@ -161,14 +150,12 @@
 			<string>outline.marked</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#FFFFFF</string>
 				<key>background</key>
 				<string>#4b96d6</string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
-
-		<!-- HELP ----------------------------- -->
 		<dict>
 			<key>name</key>
 			<string>Help: Table Name</string>
@@ -176,13 +163,12 @@
 			<string>outline.help.header</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#707E8B</string>
 				<key>fontStyle</key>
 				<string>bold</string>
+				<key>foreground</key>
+				<string>#707E8B</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Help: Table Header</string>
@@ -194,10 +180,9 @@
 				<string>#4B96D6</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
-			<string>Help: Table Header > Title</string>
+			<string>Help: Table Header &gt; Title</string>
 			<key>scope</key>
 			<string>outline.table.th title</string>
 			<key>settings</key>
@@ -206,7 +191,6 @@
 				<string>#FFFFFF</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Help: Table Header</string>
@@ -218,7 +202,6 @@
 				<string>#FFFFFF</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Help: Table punctuations</string>
@@ -226,13 +209,12 @@
 			<string>outline.table.punctuations</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#d9dee5</string>
 				<key>background</key>
+				<string>#d9dee5</string>
+				<key>foreground</key>
 				<string>#d9dee5</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Help: Shortcut</string>
@@ -240,13 +222,12 @@
 			<string>outline.table.tr command_shortcut</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#D6774B</string>
 				<key>fontStyle</key>
 				<string>bold</string>
+				<key>foreground</key>
+				<string>#D6774B</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Help: Command Description</string>
@@ -258,8 +239,6 @@
 				<string>#000000</string>
 			</dict>
 		</dict>
-		<!-- /HELP ---------------------------- -->
-
 		<dict>
 			<key>name</key>
 			<string>Error</string>
@@ -271,7 +250,6 @@
 				<string>#aa0000</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>VCS Modified</string>
@@ -285,7 +263,6 @@
 				<string>#F09609</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>VCS Untracked</string>
@@ -299,7 +276,6 @@
 				<string>#00c406</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>VCS Colorblind</string>
@@ -311,7 +287,50 @@
 				<string>#000000</string>
 			</dict>
 		</dict>
-
+		<dict>
+			<key>scope</key>
+			<string>col_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#000000</string>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_FFFFFFFF</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FFFFFFFF</string>
+				<key>foreground</key>
+				<string>#7F7F7FFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_000000FF</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#000000FF</string>
+				<key>foreground</key>
+				<string>#808080FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>col_D2B48CFF</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#D2B48CFF</string>
+				<key>foreground</key>
+				<string>#383838FF</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>07379361-ce49-4e6c-a03f-26378a7a2131</string>
